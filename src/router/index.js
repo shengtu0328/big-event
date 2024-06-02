@@ -17,7 +17,7 @@ const routes = [
     {
         path: '/',
         component: LayoutVue,
-        //重定向
+        //重定向 访问 path: '/',就会跳转到 '/article/manage'
         redirect: '/article/manage',
         //子路由
         children: [

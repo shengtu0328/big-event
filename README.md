@@ -27,3 +27,7 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+疑问
+1.  app.vue 和  Layout.vue 的 <router-view> 是怎么控制 loginvue 和 layoutvue不会显示到 layout.vue 里的 <router-view> ？
